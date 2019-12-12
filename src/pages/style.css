@@ -30,3 +30,39 @@
   color: #757575;
   cursor: pointer;
 }
+
+.dashboard-profile-menu{
+  display:inline-block;
+  width: 50px;
+  position: absolute;
+  right: 3em;
+  top: 1em;
+  text-align:right;
+}
+
+.dashboard-nav-menu{
+  list-style-type: none;
+  width: 100px;
+  margin-left: -100px;
+}
+
+.dashboard-nav-menu li{
+  text-align: left;
+  padding: 8px;
+  width: 100%;
+  background-color: #fdfdfd;
+}
+
+.dashboard-nav-menu li:hover{
+  background-color: #cfd8dc;
+  color:black;
+  cursor: pointer;
+}
+
+.dashboard-container{
+  display: inline-block;
+  margin-top: 1em;
+  width: 1000px;
+  min-height: 500px;
+  background-color: lightgray;
+}

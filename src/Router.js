@@ -5,13 +5,20 @@ import {
   Route
 } from "react-router-dom";
 import LoginPage from './pages/login/LoginPage'
+import DashboardPage from './pages/dashboard/DashboardPage'
 
 export default function Router() {
   return (
     <Routes>
       <Switch>
-        <Route path="/login">
+        <Route exact path="/">
           <LoginPage />
+        </Route>
+        <Route exact path="/login">
+          <LoginPage />
+        </Route>
+        <Route exact path="/dashboard">
+          <DashboardPage />
         </Route>
 
         {/* <PrivateRoute path="/protected">
